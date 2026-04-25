@@ -1,36 +1,55 @@
-# Daily-Tracker
-It is my first project combine both backend and frontend. Thank you for using
-## 🛠️ The langugae use for this web include
-- **Backend:** Node.js, Express.js
-- **Database:** MySQL
-- **Frontend:** HTML, CSS3, JavaScript (ES6+)
-- **Tools:** Git, Postman (for testing API)
+📝 Daily Activity Tracker
+A minimalist, full-stack web application designed to help users organize their daily tasks and boost productivity. This project marks my first milestone in becoming a professional Backend Developer.
 
-- ## ✨ The main feature
-- [x] See activity list in a day (GET)
-- [x] Add new activities (POST)
-- [x] Update or change the active status (PUT)
-- [x] Delete the activity that you have done! (DELETE)
+🚀 Live Demo
+You can access the live application here: https://daily-tracker-fikj.onrender.com/
 
-## 🚀 How to install and run this project ? 
+✨ Features
+Real-time Task Management: Add and track your daily activities instantly.
 
-### Bước 1: Clone project
+Cloud Database Integration: Data is securely stored and synchronized using Aiven MySQL Cloud.
+
+Responsive Design: Optimized for both desktop and mobile viewing.
+
+Modern UI: Clean and dark-themed interface for a better user experience.
+
+🛠️ Tech Stack
+Frontend: HTML5, CSS3, JavaScript (Vanilla JS).
+
+Backend: Node.js, Express.js.
+
+Database: MySQL (hosted on Aiven Cloud).
+
+Deployment: Render (Web Service).
+
+Version Control: Git & GitHub.
+
+🔧 Installation & Setup
+To run this project locally, follow these steps:
+
+Clone the repository:
+
+Bash
 git clone https://github.com/thinhnguyen672007-alt/Daily-Tracker.git
-cd Daily-Tracker
+Install dependencies:
 
-### Bước 2: install the library 
+Bash
 npm install
+Database Configuration:
 
-### Bước 3: Database
-- Create database MySQL whose name is `daily_tracker`.
-- Create file `.env` và configure the following parameters:
-DB_HOST=localhost
-DB_USER=root
-DB_PASS=yourpassword
-DB_NAME=daily_tracker
+Create a .env file in the root directory.
 
-### Bước 4: RUNNN
-npm start
+Add your MySQL credentials (Host, User, Password, Port).
 
+Ensure you have the ca.pem certificate for SSL connection if using Aiven.
 
-<img width="1913" height="906" alt="image" src="https://github.com/user-attachments/assets/243040fe-ec63-4edc-8a39-de9a0ae2e44c" />
+Run the server:
+
+Bash
+node main.js
+👤 Author
+Nguyen Vu Duc Thinh
+
+Freshman Software Engineering student at National Economics University (NEU).
+
+Passionate about Backend Development and AI.
