@@ -18,7 +18,7 @@ app.use(express.static(__dirname)); // Cho phép truy cập file HTML, CSS
 const pool = mysql.createPool({
     host: 'mysql-2c755bee-thinhnguyen672007-cc21.c.aivencloud.com', //
     user: 'avnadmin', 
-    password: 'AVNS_3BtTJWUGEBOVeuI7hUx', 
+    password: 'AVNS_3BtTJWUGEBOVeuI7hUx',
     database: 'defaultdb', 
     port: 18719, 
     ssl: {
