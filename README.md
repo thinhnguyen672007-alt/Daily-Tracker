@@ -1,19 +1,22 @@
-📝 Daily Activity Tracker
+📝 DAILY ACTIVITY TRACKER
 A minimalist, full-stack web application designed to help users organize their daily tasks and boost productivity. This project marks my first milestone in becoming a professional Backend Developer.
 
-🚀 Live Demo
+🚀 LIVE DEMO
 You can access the live application here: https://daily-tracker-fikj.onrender.com/
 
-✨ Features
+✨ FEATURES
 Real-time Task Management: Add and track your daily activities instantly.
-
 Cloud Database Integration: Data is securely stored and synchronized using Aiven MySQL Cloud.
-
 Responsive Design: Optimized for both desktop and mobile viewing.
-
 Modern UI: Clean and dark-themed interface for a better user experience.
 
-🛠️ Tech Stack
+CRUD OPERATIONS
+GET what activities that you want to see
+POST add new activities
+PUT/PATCH update whether these activities have done ?
+DELETE delete activities that you do not want to do
+
+🛠️ TECH STACK
 Frontend: HTML5, CSS3, JavaScript (Vanilla JS).
 
 Backend: Node.js, Express.js.
@@ -24,7 +27,7 @@ Deployment: Render (Web Service).
 
 Version Control: Git & GitHub.
 
-🔧 Installation & Setup
+🔧 INSTALLATION && SET UP
 To run this project locally, follow these steps:
 
 Clone the repository:
@@ -47,9 +50,9 @@ Run the server:
 
 Bash
 node main.js
-👤 Author
+
+
+👤 AUTHOR
 Nguyen Vu Duc Thinh
-
 Freshman Software Engineering student at National Economics University (NEU).
-
 Passionate about Backend Development and AI.
