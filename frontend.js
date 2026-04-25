@@ -1,4 +1,6 @@
-const API_URL = 'http://localhost:3000/api/activities';
+const API_URL = window.location.hostname === 'localhost' 
+    ? 'http://localhost:3000/api/activities' 
+    : 'https://daily-tracker-fikj.onrender.com/api/activities';
 
 // DOM Elements
 const activityForm = document.getElementById('activity-form');
