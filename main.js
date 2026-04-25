@@ -3,7 +3,7 @@ const mysql = require('mysql2/promise'); // We use the promise version to suppor
 const cors = require('cors');
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 
 // 1. MIDDLEWARE SETUP
@@ -104,4 +104,11 @@ app.delete('/api/activities/:id', async (req, res) => {
 // ==========================================
 app.listen(PORT, () => {
     console.log(`Server is running! API is available at http://localhost:${PORT}`);
+
+app.use(express.static(__dirname)); 
+
+app.get('/', (req, res) => {
+    res.sendFile(__dirname + '/main.html'); 
 });
+});
+
